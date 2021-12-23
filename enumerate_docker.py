@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import json
 
-IP = "192.168.52.110"
+IP = "<TARGET_IP>"
 port = 27017
 
 client = MongoClient(IP, port, username="", password="")
